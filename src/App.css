@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.playarea-header {
+  background-color: rgb(51, 117, 240);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.P1{
+  height: 20vh;
+  width: 20vh;
+  display: flex;
+  margin-top: 20px;
+  font-size: 3vh;
+  align-items: center;
+  justify-content: center;
+  padding-left: auto;
+  background-color: rgb(94, 79, 230);
+  color: white;
+  border-radius: 10px;
+  position:fixed ;
+  left:120vh;
+  top:15vh;
+  
+  }
+  .P2{
+    height: 20vh;
+    width: 20vh;
+  display: flex;
+  margin-top: 20px;
+  font-size: 3vh;
+  align-items: center;
+  justify-content: center;
+  padding-left: auto;
+  background-color: rgb(94, 79, 230);
+  color: white;
+  border-radius: 10px;
+  position:fixed ;
+  margin-left: 0vh;
+  top:15vh;
+  
+  }
+  .P3{
+    height: 20vh;
+    width: 20vh;
+  display: flex;
+  margin-top: 20px;
+  font-size: 3vh;
+  align-items: center;
+  justify-content: center;
+  padding-left: auto;
+  background-color: rgb(94, 79, 230);
+  color: white;
+  border-radius: 10px;
+  position:fixed ;
+  margin-left: 0px;
+  bottom:10vh;
+  
+  }
+  .P4{
+    height: 20vh;
+    width: 20vh;
+  display: flex;
+  margin-top: 20px;
+  font-size: 3vh;
+  align-items: center;
+  justify-content: center;
+  padding-left: auto;
+  background-color: rgb(94, 79, 230);
+  color: white;
+  border-radius: 10px;
+  position:fixed ;
+  margin-left: 10px;
+  bottom:10vh;
+  left: 120vh;
+  }
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
